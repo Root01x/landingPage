@@ -1,0 +1,172 @@
+
+@media (max-width:900px)  {
+    /* .btnDiscord{
+       visibility: hidden;
+    }
+    .container{
+        background-image: url('img/mobile.png');
+    }
+    .callToAction {
+        transform: scale(0.8);
+    }
+    .header > img {
+        transform: scale(0.6);
+    }
+    .container::after {
+        width: 20px;
+            
+    } */
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container::after {
+        position: absolute;
+        content: '';
+        background-image: url('img/1.png');
+        background-size: cover;
+        width: 540px;
+        height: 540px;
+        left: -225px;
+        top: -155px;
+        animation: moveDown4 3s ease-in-out forwards;
+        overflow: hidden;
+        transform: scale(0.4);       
+        
+    
+    }
+    @keyframes moveDown4 {
+        from {top: -455px;}
+        to {top: -210px;}
+        }
+
+    .container::before {
+        position: absolute;
+        content: '';
+        background-image: url('img/2.png');
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        right: -110px;
+        bottom: -20px;
+        animation: moveDownb 3s ease-in-out forwards;
+        transform: scale(0.4);  
+    }
+    
+    @keyframes moveDownb {
+        from { bottom: -600px; }
+        to { bottom: -100px; }
+    }
+
+    .header{
+        transform: scale(0.6);
+        display: flex;
+        flex-direction: column;
+        
+        
+    }  
+    
+    .btnDiscord{
+        margin: 0;  
+        right: -70px;
+        top: -30px;     
+       
+    }
+    .header > img{
+        margin: 220px 0 0 0;
+        
+     }
+     .main{
+        transform: scale(0.65);
+        height: 33%;
+     }
+     .footer{
+        height: 33%;
+     }
+     .content1{
+        text-align: center;
+        transform: scale(0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 10rem;
+
+     }
+     .content1 p{
+       margin: 0 0 30px 0;
+       line-height: 18px;
+        
+     }
+     .content1::after{
+        margin: 40px 0 0 20px;
+        transform: scale(0.7);
+         
+      }
+      hr{
+        width: 80%;
+      }
+      .logos {
+        
+        display: flex;
+        align-items: center;  
+        justify-content: center;      
+        width: 100%;
+       
+        
+      }
+      .logos *{   
+           
+        margin: 0;
+        left: 0;
+        right: 0;
+        top: 0;        
+      }
+      .logo1{
+        position: absolute;
+        transform: scale(0.4);
+        left: 10px;
+        top: -20px;
+
+       
+      }
+      .logo2{      
+               
+        /* padding: 0 0 0 40px; */
+        /* width: 70%;  */
+        height: 100%;       
+         
+      }
+      .logo2 img{
+        margin: 0 0 0 40px;
+        width: 100px;  
+         
+      }
+      .logo2 p{
+        transform: scale(0.7);
+         
+      }
+      .logo3{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        transform: scale(0.4);
+        right: 0px;
+        top: 0px;
+      }
+      .logo3 {
+       display: none;
+      }
+      .logos::after{
+        position: absolute;
+        content: '';
+        background-image: url('img/cuarks2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 40px;
+        right: 50px;
+        top: 5px;
+        
+      }
+  }
