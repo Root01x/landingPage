@@ -1,21 +1,6 @@
 
 @media (max-width:900px)  {
-    /* .btnDiscord{
-       visibility: hidden;
-    }
-    .container{
-        background-image: url('img/mobile.png');
-    }
-    .callToAction {
-        transform: scale(0.8);
-    }
-    .header > img {
-        transform: scale(0.6);
-    }
-    .container::after {
-        width: 20px;
-            
-    } */
+ 
     .container{
         display: flex;
         justify-content: space-between;
