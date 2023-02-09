@@ -1,9 +1,25 @@
 
+
+/* @media (max-height: 620px) and (max-width:900) {
+
+  .container{
+    height: 400px;
+  }
+  
+} */
+@media (max-height: 620px) {
+
+  .container{
+    height: 620px;
+  }
+  
+}
 @media (max-width:900px)  {
  
     .container{
         display: flex;
         justify-content: space-between;
+        
     }
     
     .container::after {

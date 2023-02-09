@@ -20,17 +20,24 @@
     src: url("fonts/anton-regular.ttf");
   }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
-/* h1{
-    margin:0;
-} */
+
 body::-webkit-scrollbar {
     width: 0;
    }
+html, body {
+    height: 100%;
+    
+}   
 html *{
     
     margin: 0;    
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
     
 }
@@ -43,13 +50,10 @@ body{
     overflow: hidden;
     position: relative;
     display: flex;  
-    flex-direction: column; 
-    
+    flex-direction: column;     
     width: 1900px;
-    height: 100vh;
-    
-    background-image: url('img/fondo.png');
-   
+    max-height: 1800px;        
+    background-image: url('img/fondo.png');   
     background-size: cover;
     background-repeat: no-repeat;
     
